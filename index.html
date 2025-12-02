@@ -8,7 +8,7 @@
   <meta content="Bikeshed version 3c53a5b02, updated Thu Nov 27 17:03:30 2025 +0000" name="generator">
   <link href="https://www.w3.org/TR/design-principles/" rel="canonical">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="62fc770df6b53054dbbe61e7ae327abbbfe1ce72" name="revision">
+  <meta content="82069d7bf8f452f707bfe582e9d3c527173e9888" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
@@ -1070,9 +1070,9 @@ if the user’s expectation matches the feature’s consequences
 (e.g., the personal information it reveals or the state it changes).</p>
    <p>Design your API so its behavior matches what people intend and expect.
 Then, in the best case, people don’t need to get involved in allowing API access
-and thus can’t make decisions they regret later. 
+and thus can’t make decisions they regret later.
 Only ask the user for confirmation in exceptional circumstances.
-If a capability can be easily reverted or causes only mild annoyance without the chance for permanent harm, 
+If a capability can be easily reverted or causes only mild annoyance without the chance for permanent harm,
 afford users an option to stop capability access instead.</p>
    <p class="example" id="example-d2d03cc5"><a class="self-link" href="#example-d2d03cc5"></a>
 For example, web pages don’t need to ask for permission to play sounds.
@@ -1084,8 +1084,8 @@ and browsers have a number of mechanisms for doing just that.
 providing clarity, context, and user control.</p>
    <p>Asking for user approval has been a common way to handle the remaining risk.
 However, people often can’t make good decisions on
-the questions they’re asked  
-because they lack crucial context and information.  
+the questions they’re asked
+because they lack crucial context and information.
 Being confronted with difficult or annoying questions leads
 to decision fatigue, habitual responses,
 annoyance from frequent interruptions, and regrettable decisions.</p>
@@ -1096,7 +1096,7 @@ Use these principles:</p>
     <li> <strong>Limit the consequences from a bad decision by addressing risk at the API level first.</strong>
     Do not ask users questions where a "bad" decision can lead to severe consequences,
     like a compromised device or serious personal data disclosure.
-    <li> <strong>Provide constant feedback about persistent decisions.</strong>   
+    <li> <strong>Provide constant feedback about persistent decisions.</strong>
     If users' decisions last longer than the current session,
     user agents should remind users that their past decision still applies.
     Provide a way to retract any ongoing permission.
@@ -1473,7 +1473,7 @@ If there is a user need or design principle which would fail
 if feature detection were available for the feature,
 then you should not support feature detection.</p>
    <p>Detecting the availability of a feature does not imply
-detecting whether <a href="#user-decisions">the user has been asked</a> to use the feature.  
+detecting whether <a href="#user-decisions">the user has been asked</a> to use the feature.
 Generally, detecting whether the feature is implemented
 can be done separately from determining whether use of the feature has been authorized.
 In some cases, it might be necessary to disable feature detection
