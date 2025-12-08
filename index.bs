@@ -3820,11 +3820,11 @@ which is documented in a specification.
 
 </div>
 
-<div class="example" heading="Link Relations" id="example-link-relation-registry">
-
 Registries can get complicated,
 especially when implementers work around mistakes in the registration requirements.
 They're still usually better than providing no place to list extensions.
+
+<div class="example" heading="Link Relations" id="example-link-relation-registry">
 
 Link relations are currently registered in a 3-part registry.
 [[rfc8288#procedure|RFC 8288]] defines the [[IANA-RELATIONS inline]] registry
