@@ -3792,9 +3792,11 @@ any new registry should start with more than one entry defined.
 Consider the case of two implementations
 that implement non-overlapping subsets
 of the defined extensions for a given extension point.
-If the extension point cannot simply be treated as empty in that case,
-you must ensure that implementations always overlap
-by defining the registry to always include at least 1 required entry.
+If operating the feature requires that implementations
+choose an extension that they both support,
+implementations that support non-overlapping subsets cannot interoperate.
+To avoid such failures, the registry must include at least 1 entry
+that all implementations are required to support.
 
 <div class=example heading="Well-Known URIs" id="example-well-known">
 
