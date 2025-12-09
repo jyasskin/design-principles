@@ -3805,10 +3805,10 @@ defined by [[RFC8615]],
 ensures that protocols don't collide when allocating a path in all web servers.
 
 Part of the purpose of HTTP and similar URL schemes
-is to allow new protocols to be defined on top of them,
-without requiring an update to the core HTTP specification for each new protocol.
-When these protocols need to retrieve information about an entire origin,
-the only effect on HTTP as a whole would come from potential name collisions.
+is to allow new capabilities to be defined that use the core protocol,
+without requiring an update to the core specification.
+When information is needed about an entire origin,
+the only need for coordination as a whole comes from avoiding the possibility of name collisions.
 Since the registry itself mitigates that risk,
 there isn't a need for the whole HTTP community
 to agree on a new HTTP revision for each registration.
