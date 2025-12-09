@@ -3708,7 +3708,7 @@ and makes it clear when the state described by the flags is reset.
 
 <!-- TODO: add examples -->
 
-<h3 id="registries">Use registries to allow constrained extensions outside the original standards track</h3>
+<h3 id="registries">Plan for future extensibility through main spec updates if possible; otherwise use a registry</h3>
 
 When you expect a feature to need to be extended over time,
 choose a kind of extensibility based on the kinds of changes you expect.
